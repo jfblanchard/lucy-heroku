@@ -1,0 +1,41 @@
+body {
+  background-color: slategrey;
+  text-align: center;
+}
+
+p {
+  color: white;
+  font: shanti;
+  font-size: 1.2em;
+  margin: 20px;
+}
+img {
+  border-radius: 10px;
+  margin: 60px 0 30 0;
+  width: 450px;
+}
+
+input {
+  width: 250px;
+  height: 40px;
+  margin: 10px;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 1.3em;
+}
+
+input:focus {
+  border: solid 2px
+}
+
+#greet {
+  background-color: palevioletred;
+  color: white;
+  width: 200px;
+}
+
+#greet:hover {
+  background-color: mediumvioletred;
+  cursor: pointer;
+}
